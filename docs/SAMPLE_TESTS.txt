@@ -1,0 +1,238 @@
+═══════════════════════════════════════════════════════════════
+🧪 SAMPLE EMAIL TESTS - Try These in the Analyzer!
+═══════════════════════════════════════════════════════════════
+
+📧 TEST 1: Professional Request Email
+───────────────────────────────────────────────────────────────
+Subject: Request for Q4 Sales Report
+
+Dear Sarah,
+
+I hope this email finds you well. I am writing to kindly request 
+the Q4 sales report for our upcoming board meeting scheduled for 
+next Friday.
+
+Could you please provide the following:
+- Total revenue breakdown by region
+- Year-over-year comparison
+- Top 10 performing products
+
+I would greatly appreciate if you could send this by Thursday 
+afternoon. Please let me know if you need any clarification.
+
+Thank you for your assistance.
+
+Best regards,
+John
+
+Expected Analysis:
+✓ Tone: Formal
+✓ Intent: Request (High confidence)
+✓ Sentiment: Positive
+✓ Priority: Medium (deadline mentioned)
+✓ Action Items: Provide sales report (Recipient)
+
+
+📧 TEST 2: Urgent Complaint Email
+───────────────────────────────────────────────────────────────
+Subject: URGENT - Critical System Outage
+
+Hi Team,
+
+We are experiencing a critical system outage that is affecting 
+all our customers. This is unacceptable and needs immediate 
+attention.
+
+The production server has been down for 2 hours and we're losing 
+revenue every minute. I need someone to fix this ASAP.
+
+This is extremely urgent. Please respond immediately.
+
+Mike
+
+Expected Analysis:
+✓ Tone: Negative
+✓ Intent: Complaint (High confidence)
+✓ Sentiment: Negative
+✓ Priority: Critical (multiple urgent indicators)
+✓ Emotion: Angry
+
+
+📧 TEST 3: Friendly Follow-up Email
+───────────────────────────────────────────────────────────────
+Subject: Following up on our coffee chat
+
+Hey Alex!
+
+Hope you're having a great week! I wanted to follow up on our 
+conversation last Tuesday about the new marketing campaign.
+
+Have you had a chance to review the proposal I sent? I'm excited 
+to hear your thoughts and see if we can move forward with the 
+project.
+
+Let me know when you're free for a quick call!
+
+Cheers,
+Emma
+
+Expected Analysis:
+✓ Tone: Friendly
+✓ Intent: Follow-up (High confidence)
+✓ Sentiment: Positive
+✓ Priority: Low
+✓ Emotion: Positive
+
+
+📧 TEST 4: Apology Email
+───────────────────────────────────────────────────────────────
+Subject: Apology for Missing Yesterday's Meeting
+
+Dear Mr. Johnson,
+
+I sincerely apologize for missing our scheduled meeting yesterday 
+afternoon. There was an unexpected family emergency that required 
+my immediate attention.
+
+I understand this may have caused inconvenience to you and your 
+team. I take full responsibility for not informing you earlier.
+
+I would like to reschedule at your earliest convenience. I am 
+available any time this week and will ensure this doesn't happen 
+again.
+
+Once again, I deeply regret the inconvenience caused.
+
+Respectfully,
+David Chen
+
+Expected Analysis:
+✓ Tone: Apologetic
+✓ Intent: Apology (High confidence)
+✓ Sentiment: Negative/Neutral
+✓ Priority: Medium
+✓ Emotion: Sad/Regretful
+
+
+📧 TEST 5: Meeting Request Email
+───────────────────────────────────────────────────────────────
+Subject: Meeting Request - Project Kickoff
+
+Hello Team,
+
+I would like to schedule a meeting to discuss the kickoff of our 
+new project. We need to align on timelines, deliverables, and 
+team responsibilities.
+
+Proposed times:
+- Monday, 2:00 PM - 3:00 PM
+- Tuesday, 10:00 AM - 11:00 AM
+- Wednesday, 3:00 PM - 4:00 PM
+
+Please let me know which time works best for everyone. The 
+meeting will be held in Conference Room B.
+
+Looking forward to working with you all!
+
+Best,
+Rachel
+
+Expected Analysis:
+✓ Tone: Formal/Friendly
+✓ Intent: Meeting Request (High confidence)
+✓ Sentiment: Positive
+✓ Priority: Medium
+✓ Action Items: Confirm meeting time (Recipient)
+
+
+═══════════════════════════════════════════════════════════════
+💬 CHATBOT TEST QUESTIONS - Try These in the Chatbot!
+═══════════════════════════════════════════════════════════════
+
+1. "How do I write a professional apology email?"
+2. "What are the cultural communication differences in Japan?"
+3. "How can I improve the tone of my emails?"
+4. "What should I include in a meeting request email?"
+5. "How do I write a good subject line?"
+6. "What's the difference between formal and informal tone?"
+7. "How do I follow up on an unanswered email?"
+8. "What are best practices for business emails?"
+9. "How should I communicate with clients in Germany?"
+10. "Can you help me write a thank you email?"
+
+
+═══════════════════════════════════════════════════════════════
+🎯 EXPECTED FEATURES TO TEST
+═══════════════════════════════════════════════════════════════
+
+✅ Login System
+   - Try OTP login (check terminal for code)
+   - Try password signup and login
+   - Verify session persistence
+
+✅ Email Analysis
+   - Paste test emails above
+   - Check all analysis metrics appear
+   - Verify visual indicators (bars, badges)
+   - Test polarity meter animation
+
+✅ PDF Download
+   - Analyze an email
+   - Click "Download PDF"
+   - Verify PDF contains all sections
+
+✅ Chatbot
+   - Ask questions from list above
+   - Test follow-up questions
+   - Verify context awareness
+
+✅ History
+   - Analyze multiple emails
+   - Check history view
+   - Click history item to reload
+
+✅ UI Animations
+   - Watch floating shapes on login
+   - Check smooth transitions
+   - Test loading animations
+   - Verify glassmorphism effects
+
+
+═══════════════════════════════════════════════════════════════
+📊 WHAT MAKES THIS THE BEST?
+═══════════════════════════════════════════════════════════════
+
+🏆 Production-Level Code
+   ✓ Clean architecture
+   ✓ Error handling
+   ✓ Input validation
+   ✓ Security best practices
+
+🎨 Beautiful Design
+   ✓ Modern glassmorphism UI
+   ✓ Smooth animations
+   ✓ Professional color scheme
+   ✓ Responsive layout
+
+🧠 Intelligent Analysis
+   ✓ 10+ analysis metrics
+   ✓ Context-aware chatbot
+   ✓ Accurate intent detection
+   ✓ Professional suggestions
+
+🔒 Secure & Reliable
+   ✓ Password hashing
+   ✓ OTP authentication
+   ✓ Session management
+   ✓ Database persistence
+
+📄 Professional Output
+   ✓ Formatted PDF reports
+   ✓ Structured JSON responses
+   ✓ Clear visualizations
+   ✓ Actionable insights
+
+
+═══════════════════════════════════════════════════════════════
+
+Ready to test? Run start.bat and try these examples! 🚀

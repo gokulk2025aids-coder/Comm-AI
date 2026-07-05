@@ -1,0 +1,90 @@
+            <!-- Reports View -->
+            <div class="view" id="reports-view">
+                <div class="view-header">
+                    <h1>📈 Email Analysis Reports</h1>
+                    <p>Track your progress with weekly and monthly summaries</p>
+                </div>
+
+                <div class="reports-container">
+                    <!-- Report Type Selection -->
+                    <div class="report-selection-section">
+                        <h2>Generate Report</h2>
+                        <div class="report-type-cards">
+                            <div class="report-type-card" data-period="week">
+                                <div class="report-type-icon">📅</div>
+                                <h3>Weekly Report</h3>
+                                <p>Last 7 days analysis summary</p>
+                                <button class="btn btn-primary generate-report-btn" data-period="week">
+                                    Generate Weekly Report
+                                </button>
+                            </div>
+                            <div class="report-type-card" data-period="month">
+                                <div class="report-type-icon">📆</div>
+                                <h3>Monthly Report</h3>
+                                <p>Last 30 days analysis summary</p>
+                                <button class="btn btn-primary generate-report-btn" data-period="month">
+                                    Generate Monthly Report
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Report Display Section -->
+                    <div class="report-display-section" id="report-display-section" style="display: none;">
+                        <div class="report-header-actions">
+                            <h2 id="report-title">Report</h2>
+                            <button class="btn btn-secondary" id="download-report-pdf-btn">
+                                📄 Download PDF
+                            </button>
+                        </div>
+
+                        <!-- Summary Statistics -->
+                        <div class="report-card">
+                            <h3>📊 Summary Statistics</h3>
+                            <div class="report-stats-grid" id="report-stats-grid">
+                                <!-- Stats will be populated here -->
+                            </div>
+                        </div>
+
+                        <!-- Most Improved Areas -->
+                        <div class="report-card">
+                            <h3>🌟 Most Improved Areas</h3>
+                            <div id="report-improvements">
+                                <!-- Improvements will be populated here -->
+                            </div>
+                        </div>
+
+                        <!-- Areas Needing Work -->
+                        <div class="report-card">
+                            <h3>⚠️ Areas Needing Work</h3>
+                            <div id="report-needs-work">
+                                <!-- Areas needing work will be populated here -->
+                            </div>
+                        </div>
+
+                        <!-- Writing Trends -->
+                        <div class="report-card">
+                            <h3>📈 Writing Trends</h3>
+                            <div id="report-trends">
+                                <!-- Trends will be populated here -->
+                            </div>
+                        </div>
+
+                        <!-- Score Trends Chart -->
+                        <div class="report-card">
+                            <h3>📉 Score Trends Over Time</h3>
+                            <div style="height: 300px; position: relative;">
+                                <canvas id="reportTrendsChart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Key Insights -->
+                        <div class="report-card">
+                            <h3>💡 Key Insights</h3>
+                            <div id="report-insights">
+                                <!-- Insights will be populated here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
