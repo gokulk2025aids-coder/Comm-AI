@@ -336,48 +336,6 @@ http://localhost:8000
 
 ---
 
-## Troubleshooting
-
-**OTP not received in email:**
-- In dev mode (no Gmail configured), the OTP is printed directly to the terminal window — check there
-- If using Gmail, verify your App Password is correct and 2-Step Verification is enabled
-- Check your spam/junk folder
-
-**Port 8000 already in use:**
-- Edit `start.bat` and change `--port 8000` to `--port 8001`
-- Or find and stop the process using port 8000:
-  ```cmd
-  netstat -ano | findstr :8000
-  taskkill /PID <PID> /F
-  ```
-
-**Module not found error:**
-- Run `pip install -r requirements.txt` from the project root
-- Ensure you are using Python 3.10 or higher: `python --version`
-- If TextBlob errors appear: `python -m textblob.download_corpora`
-
-**bcrypt / password login not working:**
-- If you had an existing `commai.db` from before bcrypt was added, delete it and restart — the database will be recreated automatically
-- New accounts created after the fix will work correctly
-
-**Database errors:**
-- Delete `commai.db` from the project root and restart the server
-- The database schema is recreated automatically on startup
-
-**Translation not working:**
-- Run: `pip install deep-translator langdetect`
-- Ensure you have an active internet connection (translation uses an external API)
-
-**Charts not displaying in bulk analysis:**
-- The project includes a local `chart.min.js` in the frontend folder — no internet required
-- If charts still don't show, hard-refresh the browser (Ctrl+Shift+R)
-
-**PDF download is blank or fails:**
-- Ensure `fpdf2` is installed: `pip install fpdf2`
-- Check the terminal for error details
-
----
-
 ## Running Tests
 
 ```cmd
